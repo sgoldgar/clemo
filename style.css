@@ -1,0 +1,296 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.line {
+  border-top: 1px solid black;
+  width:10%;
+  margin: 10px auto;
+}
+
+.button a, .button{
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: lighter;
+}
+/* Logo and Nav Bar */
+header {
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.clemo-logo {
+  float: left;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+.nav-link{
+  display: inline;
+  padding: 5px;
+}
+
+.nav-link a {
+  color: #c5c5c5;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.inner-square {
+  background-color: #ffe1bd;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-content {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.black-button {
+  color: white;
+  background-color: black;
+}
+
+.hero-content .button {
+  margin-top: 50px;
+}
+
+/* Info Section */
+.info{
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.column {
+  width: 50%;
+  margin:0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.container-image img {
+  width: 100%;
+}
+
+.container-text {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+}
+
+.container-text h2 {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.left-line {
+  text-align: left;
+  margin-left: 5px;
+
+}
+
+.white-button {
+  background-color: white;
+  color: #c5c5c5;
+  border: 1px solid #c5c5c5;
+}
+
+.container-text .button {
+  padding: 30px 5px;
+}
+
+/* Gallery */
+
+.gallery-column, .team-column {
+  width: 33.3%;
+  margin: 5px 10px;
+  flex: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.gallery-image img {
+  width: 100%;
+  margin: 10px 5px;
+}
+
+.gallery .button {
+  margin-top: 50px;
+}
+
+/* Best Team */
+
+.team {
+  background-color: #ffe1bd;
+}
+
+.team h1 {
+  font-weight: 200;
+  padding-top: 40px;
+}
+
+.round-image {
+  border-radius: 50%;
+  background-color: white;
+}
+
+.team .container {
+  padding: 50px 50px;
+}
+
+.team h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.team .line {
+  margin: 0 auto;
+  width: 15%;
+}
+
+/* Client Says */
+
+.client h3 {
+  font-weight: bold;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.client .container-text.right-align {
+  text-align: right;
+}
+
+.right-line {
+  margin-right: 5px;
+}
+
+.container-text.left p {
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.row.picrow{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 30px 0;
+}
+
+.picrow img {
+  padding: 10px;
+}
+
+/* Contact Section */
+  /*Contact info */
+.contact {
+  background-color: black;
+  color: white;
+}
+
+.contact .container-text {
+  margin-bottom: 20px;
+}
+
+.contact-info p, .contact-info a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  font-weight: lighter;
+  margin: 5px;
+  padding-top: 0;
+
+}
+
+.contact-info i {
+  margin-right: 5px;
+  display: inline;
+}
+
+  /*social links*/
+.social {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 10px 0;
+}
+
+.social a {
+  background-color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  padding: 15px;
+}
+
+  /*contact form*/
+.contact-form input, .contact-form textarea{
+  color: #c1bdba;
+  background-color: black;
+  border: 0;
+  border-bottom: 1px solid #e6e6e6;
+  float: left;
+  padding-right: 25%;
+}
+
+.contact-form .button {
+  background-color: white;
+  border-radius: 25px;
+  padding: 8px 30px;
+  font-weight: 300;
+  float: left;
+  margin: 30px 0px 30px 10px;
+  color: black;
+  border: none;
+}
+
+/* Footer */
+.footer {
+  margin: 30px 0;
+}
+.footer h5 {
+  margin-bottom: 0;
+}
