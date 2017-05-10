@@ -1,2 +1,2 @@
 # clemo
-Website built from prototype given in class
+Design company website built in HTML and CSS for class exercise. Based off mockup given.
